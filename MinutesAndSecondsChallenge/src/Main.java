@@ -1,6 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        MinutesAndSeconds.getDurationString(-35,25);
+        System.out.println(MinutesAndSeconds.getDurationString(250,25));
+        System.out.println(MinutesAndSeconds.getDurationString(500));
+        System.out.println(MinutesAndSeconds.getDurationString(3945));
     }
 }
